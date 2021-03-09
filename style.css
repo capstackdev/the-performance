@@ -1,0 +1,964 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.fs-block-bg{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.fs-block {
+    widows: 100%;
+    height: 100vh;
+    position: relative;
+}
+.fs-block-text{
+    color: #fff;
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    height: 100%;
+    top: 0px;
+}
+.inspiration {
+    font-size: 50px;
+    position: absolute;
+    left: 0px;
+    top: 5vh;
+    width: 100vw;
+    padding-left: 0vw;
+    transform: scaleX(.7);
+}
+#check-out-trailer {
+    font-size: 40px; 
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.film-img {
+    width: 100%;
+}
+.nancy-text, #andrei-text {
+    color: #fff;
+    font-weight: 100;
+}
+#daniel-text, #david-text, #chaya-text {
+    font-weight: 100;
+    text-align: justify;
+    letter-spacing: 1px;
+    width: 80%;
+}
+#daniel-image, #david-image, #chaya-image {
+    border-radius: 200px;
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    vertical-align: top;
+}
+#first-block-bg {
+    background-image: url('./assets/1.jpg');
+}
+#second-block-bg {
+    background-image: url('./assets/2.png');
+}
+#third-block-bg {
+    background-image: url('./assets/3.png');
+}
+#four-block-bg {
+    background-image: url('./assets/4.png');
+}
+#fifth-block-bg {
+    background-image: url('./assets/5.png');
+}
+#six-block-bg {
+    background-image: url('./assets/6.png');
+}
+#seven-block-bg {
+    background-image: url('./assets/7.png');
+}
+#eight-block-bg{
+    background-image: url('./assets/8.png');
+}
+#nine-block-bg{
+    background-image: url('./assets/9.png');
+}
+#ten-block-bg{
+    background-image: url('./assets/10.png');
+}
+#eleven-block-bg{
+    background-image: url('./assets/11.png');
+}
+#twelve-block-bg{
+    background-image: url('./assets/12.png');
+}
+#fourth-block-bg{
+    background-image: url('./assets/14.png');
+}
+#fifteen-block-bg{
+    background-image: url('./assets/15.png');
+}
+#sixteen-block-bg{
+    background-image: url('./assets/16.png');
+}
+#seventeen-block-bg{
+    background-image: url('./assets/17.png');
+}
+#team-block-bg{
+    background-image: url('./assets/13.png');
+}
+.team-name{
+    color: #ccb84c;font-size: 24px;margin: 10px 0px;transform: scaleY(1.5);
+}
+#locations {
+    position: absolute;
+    font-size: 80px;
+    z-index: 999;
+    color: #fff;
+    font-weight: 100;
+    transform: rotateZ(270deg) scaleX(.7);
+    left: -140px;
+    top: 160px;
+}
+#header {
+    font-size: 100px;
+    margin-top: -20vh;
+    letter-spacing: -4px;
+    height: 100px;
+    font-weight: 600;
+    transform: scale(.6,1);
+    background: -webkit-gradient(linear, left top, left bottom, from(#e6e0a8), to(#d2a315));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#pot-cast-container {
+    position: absolute;
+    z-index: 999;
+    font-size: 60px;
+    font-weight: 100;
+    transform: scaleY(.6) rotateZ(-90deg);
+    left: -160px;
+    top: 60%;
+}
+#pot-cast-pot {
+    color: #fff;
+    display: inline-block;
+}
+#pot-cast-cast {
+    color: #d98651;
+    display: inline-block;
+}
+.chevron-container{
+    position: fixed;
+    width: 90%;
+    height: 60px;
+    left: 5%;
+    bottom: 50px;
+    z-index: 999999;
+    text-align: center;
+}
+#arthur-miller-text {
+    color: #333;
+    width: 30vw;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+}
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+.chevron-container svg {
+    height: 100%;
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+    display: inline-block;
+    width: 60px;
+}
+.chevron-container svg:hover {
+    animation-play-state: paused;
+}
+.chevron-container svg:hover path {
+    fill: rgb(255 255 255 / 95%) !important;
+}
+#jim-text {
+    color: #fff;
+    font-weight: 100;
+    text-align: justify;
+    width: 100%;
+    letter-spacing: 1px;
+}
+.jim-block {
+    position: absolute;
+    left: 25vw;
+    width: 50vw;
+    z-index: 999;
+    top: 5vh;
+    text-align: left;
+}
+.nancy-block {
+    display: inline-block;
+    height: 80vh;
+    width: 45%;
+    vertical-align: top;
+    border-right: 1px #fff solid;
+}
+.andrei-description {
+    padding: 15px 15px 15px 60px;
+}
+.andrei-block {
+    display: inline-block;
+    height: 80vh;
+    text-align: left;
+    vertical-align: top;
+    width: 45%;
+    border-left: 1px #fff solid;
+}
+#subheader{
+    padding: 10px 20px;
+    width: 570px;
+    filter: grayscale(1);
+    transform: scale(1,2);
+    font-weight: 300;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: rgb(230 250 0 / 12%);
+}
+.team-role{
+    color: #ccb84c;
+    margin: 10px 0px 20px 0px;
+    font-weight: 100;
+}
+.face {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center;
+}
+.team-desc-block {
+    position: absolute;
+    z-index: 999;
+    color: #fff;
+    width: 50vw;
+    left: 40vw;
+    top: 20vh;
+}
+.face-td{
+    padding: 0px 3vw;
+    vertical-align: top;
+}
+.name {
+    display: block;
+    margin-top: 15px;
+    color: yellow;
+}
+#ny {
+    background-image: url(./assets/ny.png);
+    position: absolute;
+    left: 10vw;
+    top: 0px;
+    width: 80vw;
+    height: 45vw;
+    z-index: 999;
+    background-size: cover;
+}
+#ny-1 {
+    position: absolute;
+    left: 2vw;
+    top: 10vh;
+    width: 80vw;
+    z-index: 999;
+}
+.team-description-container {
+    position: absolute;
+    left: 10vw;
+    width: 80vw;
+    z-index: 999;
+    top: 10vh;
+    text-align: center;
+}
+#ny-2 {
+    position: absolute;
+    left: 10vw;
+    top: 45vh;
+    width: 80vw;
+    z-index: 9999;
+}
+#ny-berlin {
+    font-weight: 100;
+    position: absolute;
+    z-index: 9999;
+    font-size: 70px;
+    transform: scaleX(.7);
+    letter-spacing: -2px;
+    color: #fff;
+    left: calc(50% - 270px);
+    bottom: 30px;
+}
+.andrei-image, .nancy-image, .jim-image {
+    display: inline-block;
+    width: 130px;
+    height: 130px; 
+    border-radius: 200px;
+    background-size: cover;
+}
+.faces-container {
+    text-align: center;
+    padding-top: 4vh;
+}
+#they-adore {
+    color: #fff;
+    font-weight: 100;
+    transform: scale(.7,1);
+    position: absolute;
+}
+#so-long-as-they {
+    color: #decd4d;
+    font-size: 35px;
+    transform: scale(.7,1);
+    position: absolute;
+}
+#dont-know {
+    color: #decd4d;
+    transform: scale(.7,1);
+    position: absolute;
+    top: 130px;
+}
+#synopsys-header {
+    font-size: 40px;
+    color: #decd4d;
+    font-weight: unset;
+    transform: scale(.7,1);
+    position: absolute;
+    right: 40vw;
+    top: 100px;
+}
+#synopsys-label {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 100;
+    position: absolute;
+    transform: rotate(270deg) scale(1,2);
+    left: -50px;
+    letter-spacing: 5px;
+    bottom: 30%;
+}
+#synopsys-text {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    right: 10vw;
+    top: 150px;
+    width: 40vw;
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.team-label-name{
+    color: #ccb84c;
+    z-index: 999;
+    position: absolute;
+    font-size: 24px;
+    transform: rotateZ(270deg) scaleY(1.9);
+    top: 137px;
+    left: 10px;
+}
+.team-label-line {
+    position: absolute;
+    background-color: #ccb84c;
+    width: 4px;
+    height: 80px;
+    left: 0px;
+    top: 110px;
+    z-index: 999;
+}
+.pot-team-label-name{
+    color: #ccb84c;
+    z-index: 999;
+    position: absolute;
+    font-size: 24px;
+    transform: rotateZ(270deg) scaleY(1.9);
+    top: 177px;
+    left: -60px;
+}
+.pot-team-label-line {
+    position: absolute;
+    background-color: #ccb84c;
+    width: 4px;
+    height: 220px;
+    left: 0px;
+    top: 80px;
+    z-index: 999;
+}
+.piven-name {
+    color: #8c5042; 
+    font-size: 40px; 
+    margin-bottom: 20px;
+    transform: scaleY(1.5);
+}
+#directors {
+    font-size: 40px;
+    color: #ffed00;
+    font-weight: 500;
+    transform: scale(.8,1.4);
+    position: absolute;
+    left: 5vw;
+    top: 10vh;
+}
+#dir-statement {
+    font-size: 40px;
+    color: #ffed00;
+    font-weight: 100;
+    transform: scale(.8,1.4);
+    position: absolute;
+    left: 5vw;
+    top: calc(10vh + 60px);
+}
+#dir-state-text {
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    left: 6.5vw;
+    top: calc(10vh + 130px);
+    width: 17vw;
+    font-weight: 100;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.piven-role {
+    color: #777;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    transform: scaleY(1.5);
+    margin-bottom: 50px;
+}
+#piven-text {
+    color: #333;
+    width: 25vw;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+}
+#shira-text-container {
+    position: absolute;
+    right: 5vw;
+    top: 10vh; 
+    z-index: 999;
+}
+#shira-text {
+    color: #fff;
+    width: 25vw;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 18px;
+}
+.team-block {
+    display: inline-block;
+    width: calc(100% - 240px);
+    margin-left: 40px;
+}
+.appeal {    
+    color: #e2b900;
+    font-weight: 500;
+    font-size: 40px;
+    transform: scaleX(0.5);
+    display: block;
+    margin-left: -125px;
+}
+.social {    
+    color: #fff;
+    font-weight: 100;
+    font-size: 45px;
+    transform: scaleX(0.5);
+    display: block;
+    margin-left: -125px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.appeal-long-text {
+    letter-spacing: 1.3px;
+    line-height: 18px;
+    font-size: 14px;
+}
+.appeal-text {
+    column-width: 10vw;
+    column-count: 2;
+    width: 50vw;
+    left: 40vw;
+    position: absolute;
+    top: 10vh;
+    font-weight: 100;
+    color: #fff;
+    text-align: justify;
+}
+.the-rise-details {
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+.the-rise-text {
+    padding-top: 15vh;
+}
+.covid-label {
+    background-color: #cd1719;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 30px;
+    font-weight: 300;
+    transform: scaleX(.7);
+}
+#streaming-img {    
+    width: 50%;
+    margin-top: 30px;
+    opacity: .7;
+}
+#similar {
+    letter-spacing: 10px;
+    color: #a69a6f;
+    font-weight: 300;
+    transform: scaleY(1.5);
+    font-size: 20px;
+    margin-top: 10vh;
+}
+.similar-project {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    display: inline-block;
+    margin: 30px;
+    width: calc(30vw - 60px);
+}
+.similar-project ul {
+    padding-left: 17px;
+    margin: 0px;
+}
+.similar-project ul li {
+    font-weight: 100;
+    color: #ddd;
+}
+.gross-color {
+    color: #decd4d;
+    font-weight: 500;
+}
+.budget-color {
+    color: #a69a6f;
+}
+.budget-amount {
+    font-weight: 500;
+}
+.project-name {
+    background-color: #a69a6f;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #444;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#sim-projects-container {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+#trailer-block {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+    bottom: 20vh;
+}
+#trailer-block a {
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #f3df4e;
+}
+.btn {    
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #decd4d;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 25px;
+    color: #444;
+    font-weight: bold;
+    border-radius: 200px;
+    margin: 15px 0px 15px 0px;
+}
+#password {
+    font-size: 28px;
+    font-weight: 300;
+    color: #f3df4e;
+}
+#chevron-4 {
+    text-align: left;
+    padding-left: 15%;
+    width: 75%;
+}
+#chevron-5 {
+    text-align: left;
+    padding-left: 3%;
+    width: 85%;
+}
+#chevron-19 {
+    transform: rotate(180deg);
+}
+@media (min-width: 600px) {
+    #so-long-as-they {
+        font-size: 35px;
+        left: 33px;
+        top: 90px;
+    }
+    #they-adore {
+        font-size: 30px;
+        left: 40px;
+        top: 50px;
+    }
+    #dont-know {
+        left: 5px;
+        font-size: 40px;
+    }
+    #fullview-faces {
+        display: block;
+    }
+    #mobile-faces {
+        display: none;
+    }
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        display: initial;
+    }
+}
+@media (max-width: 600px) {
+    #trailer-block {
+        top: 50vh;
+        bottom: initial;
+    }
+    #password {
+        font-size: 16px;
+    }
+    #similar {
+        font-size: 15px;
+        margin-top: 5vh;
+    }
+    #check-out-trailer {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 16px;
+    }
+    .project-name {
+        font-size: 18px;
+    }
+    .covid-label {
+        font-size: 20px;
+        padding: 5px 20px;
+    }
+    .the-rise-details {
+        font-size: 12px;
+        width: 80%;
+    }
+    .similar-project {
+        text-align: left;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 16px;
+        display: inline-block;
+        margin: 10px 10px 0px 10px;
+        width: 80vw;
+    }
+    #streaming-img {
+        width: 80%; 
+    }
+    .appeal-text {
+        left: 2vw;
+        top: 2vh;
+        width: 90vw;
+    }
+    .appeal {
+        font-size: 20px;
+        margin-left: -18px;
+        transform: scaleX(0.8);
+    }
+    .appeal-long-text {
+        font-size: 10px;
+        letter-spacing: .5px;
+        line-height: 0px;
+    }
+    .social {
+        font-size: 22px;
+        transform: scale(.7);
+        margin-left: -30px;
+        margin-top: -3px;
+    }
+    .inspiration {
+        font-size: 35px;
+    }
+    #synop-text {
+        background-color: #03350366;
+    }
+    #header {
+        font-size: 12vw;
+        margin-top: -10vh;
+        transform: scale(.8, 1);
+    }
+    #subheader {
+        margin-top: 0px;
+        font-size: 14px;
+        display: inline-block;
+        text-align: center;
+        padding: 10px 0px;
+        width: 80vw;
+        transform: scale(1,1.7);
+    }
+    .team-description-container {
+        top: 0vh;
+    }
+    .pot-team-label-line {
+        height: 150px;
+        left: 0px;
+        top: 30px;
+    }
+    .pot-team-label-name {
+        left: -40px;
+        font-size: 16px;
+        top: 95px;
+    }
+    #jim-text {
+        font-size: 12px;
+        width: 90%;
+        margin-top: 10px;
+    }
+    .jim-block {
+        top: 2vh;
+        left: 5vw;
+        width: 90vw;
+    }
+    .andrei-image, .nancy-image, .jim-image {
+        width: 90px;
+        height: 90px;
+    }
+    .andrei-image {
+        margin-left: -10px;
+        margin-right: 15px;
+    }
+    .nancy-image {
+        margin-right: 15px;
+    }
+    .andrei-description {
+        padding: initial;
+        margin-left: -5%;
+    }
+    .andrei-block {
+        display: block;
+        width: 95vw;    
+        height: initial;
+        padding: 0px;
+        border: none;
+    }
+    .nancy-block {
+        display: block;
+        width: 95vw;
+        height: initial;
+    }
+    .nancy-text {
+        font-size: 12px;
+        text-align: justify;
+        width: 115%;
+        margin-left: -15%;
+        margin-top: 10px;
+    }
+    #andrei-text {
+        font-size: 12px;
+        text-align: justify;
+        width: 80%;
+        margin-top: 10px;
+    }
+    #nancy-label {
+        display: block;
+        width: 95vw;
+    }
+    .team-label-line {
+        top: 2vh;
+        height: 70px;
+    }
+    .team-label-name {
+        top: 5vh;
+        font-size: 20px;
+        left: 0px;
+    }
+    #daniel-text, #david-text, #chaya-text {
+        font-size: 14px;
+    }
+    .team-block {
+        width: 100%;
+        padding-top: 30px;
+        margin-left: 0px;
+    }
+    .team-desc-block {
+        left: 5vw;
+        top: 5vw;
+        width: 95vw;
+    }
+    .team-desc-block #daniel-image, 
+    .team-desc-block #david-image,
+    .team-desc-block #chaya-image{
+        display: block;
+    }
+    #shira-text-container {
+        position: absolute;
+        right: initial;
+        left: 5vw;
+        top: 5vh; 
+        z-index: 999;
+    }
+    #shira-text {
+        width: 80vw;
+        color: #fff;
+        font-size: 13px;
+        line-height: initial;
+    }
+    .piven-role {
+        color: #fff;
+        font-size: 16px;
+    }
+    #piven-text {
+        width: 80vw;
+        color: #fff;
+        font-size: 18px;
+    }
+    #arthur-miller-text {
+        width: 80vw;
+        font-size: 16px;
+        line-height: 18px;
+        color: #fff;
+    }
+    #ny-berlin {
+        width: 100%;
+        text-align: center;
+        left: 0px;
+        font-size: 35px;
+        bottom: 9vh;
+    }
+    #locations {
+        transform: scaleX(.7);
+        top: 5px;
+        font-size: 60px;
+        left: -20px;
+    }
+    .mobile {
+        display: initial;
+    }
+    .desktop {
+        display: none;
+    }
+    #pot-cast-container {
+        transform: initial;
+        top: 10px;
+        font-size: 30px;
+        left: 10px;
+    }
+    .chevron-container{
+        bottom: 10px;
+        transition: 1s;
+    }
+    .name {
+        font-size: 12px;
+    }
+    .face {
+        width: 23vw;
+        height: 23vw;
+    }
+    #mobile-faces .faces-container {
+        padding-right: 10vw;
+    }
+    #fullview-faces {
+        display: none;
+    }
+    #mobile-faces {
+        display: block;
+        padding-top: 5vh;
+    }
+    #synopsys-label {
+        display: none;
+    }
+    #so-long-as-they {
+        font-size: 40px;
+        left: 0px;
+        top: calc(50% + 80px);
+    }
+    #they-adore {
+        font-size: 40px;
+        left: 0px;
+        top: 50%;
+    }
+    #dont-know {
+        left: 0px;
+        font-size: 30px;
+        top: calc(50% + 160px);
+    }
+    #synopsys-header {
+        top: 5vh;
+        text-align: center;
+        width: 100%;
+        left: 0px;
+    }
+    #synopsys-text {
+        right: initial;
+        left: 10vw;
+        width: 80vw;
+        font-size: 16px;
+        top: 12vh;
+    }
+    #arthur-miller-text-bg {
+        background-color: #2a89633d;
+    }
+    #jeremy-piver-text-bg {
+        background-color: #0f41663d;
+    }
+    #shira-piven-text-bg {
+        background-color: #0f41663d;
+    }
+    #synopsys-bg, #dir-state-text-bg {
+        background-color: #00000057;
+    }
+    #dir-state-text {
+        left: 10vw;
+        width: 80vw;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    #seven-block-bg {
+        background-position-x: 70%;
+    }
+    #eight-block-bg {
+        background-position-x: 30%;
+    }
+    #nine-block-bg {
+        background-position-x: 10%;
+    }
+    .piven-name {
+        color: #d2593c;
+    }
+}
